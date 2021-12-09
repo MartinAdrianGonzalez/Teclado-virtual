@@ -1,0 +1,291 @@
+.container 
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 17em;
+}
+
+#pared
+{
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  z-index: 1;
+}
+
+#pant
+{
+position: absolute;
+width: 40%;
+height: 60%;
+align-content:center;
+z-index: 2;
+left: 350px;
+bottom:200px;
+}
+
+#pantalla
+{
+
+position:absolute;
+left: 380px;
+bottom: 300px;
+width: 35%;
+height: 35%;
+z-index: 3;
+border-top: 10px solid rgb(101, 101, 230);
+}
+
+
+.teclado
+{
+  position: absolute;
+  top: 400px;
+  left: 280px;
+  width: 665px;
+  height: 180px;
+  padding: 15px;
+  box-shadow:
+  0 4px 1px #bdbdbd,
+  3px 0 1px #d3d3d3,
+  0 -2px 1px #ececec,
+  -2px 0 1px #e4e4e4,
+  0 2px 1px #fff inset;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #f4f4f6, #eee);
+  user-select: none;
+  z-index: 4;
+}
+
+
+.teclasprincipales
+{ 
+  right: 180px;
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  left:
+}
+
+.teclasprincipales button
+{
+  width: 23px;
+  height: 22px;
+  padding: 1px;
+  box-shadow:
+  0 4px 1px #bdbdbd,
+  3px 0 1px #d3d3d3,
+  0 -2px 1px #ececec,
+  -2px 0 1px #e4e4e4,
+  0 2px 1px #fff inset;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #f4f4f6, #eee);
+  user-select: none;
+  font-size: 11px;
+  text-align: center;
+}
+
+.efesyesc1
+{
+  position: absolute;
+  left: 39px;
+}
+.efesyesc2
+{
+  position: absolute;
+
+  left: 165px;
+}
+
+
+.efesyesc3
+{
+  position: absolute;
+  left: 300px;
+}
+
+.insert
+{
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  left: 455px;
+  bottom: 89px;
+}
+
+
+.imp
+{
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 455px;
+  bottom: 145px;
+
+}
+
+
+.insert button
+{
+  width: 30px;
+  height: 25px;
+  padding: 0px,2px,0px,0px;
+}
+
+.imp button
+{
+  width: 30px;
+  height: 25px;
+  padding: 0px,2px,0px,0px;
+  box-shadow:
+  0 4px 1px #bdbdbd,
+  3px 0 1px #d3d3d3,
+  0 -2px 1px #ececec,
+
+
+
+  -2px 0 1px #e4e4e4,
+  0 2px 1px #fff inset;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #f4f4f6, #eee);
+  font-size: 13px;
+  text-align: center;
+}
+
+
+.alfanumerico
+{
+  
+  position: relative;
+  padding: 5px;
+  width: 500px;
+  height: 260px;
+  top: 30px;
+  right:5px;
+}
+
+button
+{
+  width: 25px;
+  height: 25px;
+  box-shadow:
+  0 4px 1px #bdbdbd,
+  3px 0 1px #d3d3d3,
+  0 2px 1px #fff inset;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #f4f4f6, #eee);
+  user-select: none;
+  font-size: 9px;
+  text-align: center;
+}
+
+
+
+.flechas
+{
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  left: 745px;
+  top: 540px;
+  z-index: 6;
+}
+
+.pad
+{
+  position:absolute;
+  width: 10%;
+  height: 200px;
+  right: 370px;
+  top: 465px;
+  z-index: 7;
+}
+
+
+#borrar
+{
+  width: 55px;
+  height: 30px;
+}
+#tab
+{
+  width: 39px;
+  height: 30px;
+}
+
+#mayus
+{
+  width: 45px;
+  height: 30px;
+}
+
+#shift
+{
+  width: 40px;
+  height: 30px;
+}
+
+#shift2
+{
+  width: 98px;
+  height: 30px;
+}
+
+#espacio
+{
+  width:233px;
+  height: 30px;
+}
+
+#enter
+{
+  position: absolute;
+  width: 53px;
+  height: 50px;
+  left:393px;
+  top:80px
+}
+
+
+#correrflecha
+{
+  font-size:14px;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+#esc
+{
+  position: absolute;
+  font-size: 10px;
+  left: 295px;
+  top:  415px;
+  z-index: 8;
+  width: 25px;
+  height: 25px;
+}
+
+#mas
+{
+  position:absolute;
+  height: 50px;
+  right: 393px;
+  bottom: 12px;
+  z-index: 8;
+}
+
+#cero
+{
+  width: 54px;
+}
+
+#intro
+{
+  position:absolute;
+  height: 50px;
+  right: 393px;
+  top: 541px;
+  z-index:8;
+}
+

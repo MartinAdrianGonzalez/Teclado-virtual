@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/teclado.css">
+    <script src="js/teclado.js"></script>
+    <title>Document</title>
+</head>
+    <body>
+        <div>
+            <img src="img/pared.jpg" alt="" id="pared">
+            <img src="img/pantalla.jpg" alt="" id="pant">
+            <input type="text" id="pantalla" readonly>
+        </div>
+            <div class="teclado">
+                <div class="teclasprincipales">
+                    <div class="efesyesc1">
+                        <button id="">F1</button>
+                        <button id="f2">F2</button>
+                        <button id="f3">F3</button>
+                        <button id="f4">F4</button> 
+                    </div>              
+                    <div class="efesyesc2" >
+                        <button id="f5">F5</button>
+                        <button id="f6">F6</button>
+                        <button id="f7">F7</button>
+                        <button id="f8">F8</button>
+                    </div>
+                    <div class="efesyesc3">
+                        <button onclick id="f9">F9</button>
+                        <button onclick id="f10">F10</button>
+                        <button onclick id="f11">F11</button>
+                        <button onclick id="f12">F12</button>
+                    </div>
+                </div>
+                <div class="alfanumerico">
+                    <button onclick="escribir(0)" id="boton">ªº\ </button>
+                    <button onclick="escribir(1)" id="boton">!1</button >
+                    <button onclick="escribir(2)" id="boton">2@</button >
+                    <button onclick="escribir(3)" id="boton">·3#</button>
+                    <button onclick="escribir(4)" id="boton">$4</button >
+                    <button onclick="escribir(5)" id="boton">%5</button >
+                    <button onclick="escribir(6)" id="boton">&6</button >
+                    <button onclick="escribir(7)" id="boton">/7</button >
+                    <button onclick="escribir(8)" id="boton">(8</button >
+                    <button onclick="escribir(9)" id="boton">)9</button >
+                    <button onclick="escribir(10)"id="boton">=0</button >
+                    <button onclick="escribir(11)"id="boton">?'</button >
+                    <button onclick="escribir(12)"id="boton">¿¡</button >
+                    <button onclick="borrar()"id="borrar">←Borrar</button>
+                    <div class="fila1">
+                        <button onclick="teclas()" id="boton"> ↹</button>
+                        <button onclick="teclas(0)" id="boton">Q</button>
+                        <button onclick="teclas(1)" id="boton">W</button>
+                        <button onclick="teclas(2)" id="boton">E</button>
+                        <button onclick="teclas(3)" id="boton">R</button>
+                        <button onclick="teclas(4)" id="boton">T</button>
+                        <button onclick="teclas(5)" id="boton">Y</button>
+                        <button onclick="teclas(6)" id="boton">U</button>
+                        <button onclick="teclas(7)" id="boton">I</button>
+                        <button onclick="teclas(8)" id="boton">O</button>
+                        <button onclick="teclas(9)" id="boton">P</button>
+                        <button onclick="teclas(10)" id="boton">´[</button>
+                        <span id="enter2"></span>
+                        <button onclick="teclas(11)" id="enter3">*+]</button>
+                        <span></span>
+                    </div>
+                    <div class="fila2">
+                        <button onclick="teclas()" id="boton">Mayús</button>
+                        <button onclick="teclas(12)" id="boton">A</button>
+                        <button onclick="teclas(13)" id="boton">S</button>
+                        <button onclick="teclas(14)" id="boton">D</button>
+                        <button onclick="teclas(15)" id="boton">F</button>
+                        <button onclick="teclas(16)" id="boton">G</button>
+                        <button onclick="teclas(17)" id="boton">H</button>
+                        <button onclick="teclas(18)" id="boton">J</button>
+                        <button onclick="teclas(19)" id="boton">K</button>
+                        <button onclick="teclas(20)" id="boton">L</button>
+                        <button onclick="teclas(21)" id="boton">Ñ</button>
+                        <button onclick="teclas(22)" id="boton">̣̤̣̤̣̤̤̤̤̤̤̈{</button>
+                        <button onclick="teclas(23)" id="boton">̣̤̤ç}</button>
+                    </div>
+                    <div class="fila3">
+                        <button onclick="teclas()" id="shift">↑Shift</button>
+                        <button onclick="teclas(24)" id="boton">̣̤̤Z</button >
+                        <button onclick="teclas(25)" id="boton">X</button>
+                        <button onclick="teclas(26)" id="boton">C</button>
+                        <button onclick="teclas(27)" id="boton">V</button>
+                        <button onclick="teclas(28)" id="boton">B</button>
+                        <button onclick="teclas(29)" id="boton">N</button>
+                        <button onclick="teclas(30)" id="boton">M</button>
+                        <button onclick="teclas(31)" id="boton">; , </button>
+                        <button onclick="teclas(32)" id="boton">: . </button>
+                        <button onclick="teclas(33)" id="boton">-  _ </button>
+                        <button onclick="teclas()" id="shift2">↑Shift</button>
+                    </div>
+                    <div class="fila4">
+                        <button onclick="teclas()" id="ctrl">Ctrl</button>
+                        <button onclick="teclas()" id="">̣̤̤<img src="" alt=""></button>
+                        <button onclick="teclas()" id="alt1">Alt</button>
+                        <button onclick="teclaesp()" id="espacio">Espacio</button">
+                        <button onclick="teclas()" id="alt2">Alt</button>
+                        <button onclick="teclas()" id=""><img src="" alt=""></button>
+                        <button onclick="teclas()" id="menu">MC</button>
+                        <button onclick="teclas()" id="ctrl2">Ctrl</button>
+                    </div>
+                </div>
+                <button onclick="enter()" id="enter">Enter↓</button>
+                <div class="imp">
+                    <button onclick="teclas()" id="">Imp</button>
+                    <button onclick="teclas()" id="">Bloq</button>
+                    <button onclick="teclas()" id="">Pse</button>
+                </div>
+                <div class="insert">
+                    <button onclick="teclas()" id="">Ins</button>
+                    <button onclick="teclas()" id="">Ini</button>
+                    <button onclick="teclas()" id="">ReP</button><br>
+                    <button onclick="teclas()" id="">Supr</button>
+                    <button onclick="teclas()" id="">Fin</button>
+                    <button onclick="teclas()" id="">Avp</button>
+                </div>
+                </div>
+                <div class="flechas">
+                    <span id="correrflecha">......</span>
+                    <span></span>
+                    <button onclick="teclas()">↑</button>
+                    <br>
+                    <button onclick="teclas()">←</button>
+                    <button onclick="teclas()">↓</button>
+                    <button onclick="teclas()">→</button>
+                </div>
+                <div class="pad">
+                    <button onclick="numero(0)" id="bn">B.N</button>
+                    <button onclick="numero(1)" id="">/</button>
+                    <button onclick="numero(2)" id="">*</button>
+                    <button onclick="numero(3)" id="">-</button>
+                    <button onclick="numero(4)" id="">7</button>
+                    <button onclick="numero(5)" id="">8</button>
+                    <button onclick="numero(6)" id="">9</button><br>
+                    <button onclick="numero(7)" id="">4</button>
+                    <button onclick="numero(8)" id="">5</button>
+                    <button onclick="numero(9)" id="">6</button><br>
+                    <button onclick="numero(10)" id="">1</button>
+                    <button onclick="numero(11)" id="">̣̤̤2</button>
+                    <button onclick="numero(12)" id="">3</button><br>
+                    <button onclick="numero(13)" id="cero">0</button>
+                    <button onclick="numero()" id="">.</button>
+                </div>
+                    <button onclick="numero(14)" id="mas">̣̤̤+</button">
+                    <button onclick="teclas()" id="esc">Esc</div>
+                    <button onclick="teclas()" id="intro">i <br>n <br> t </button>
+            </div>
+    </body>
+</html>
